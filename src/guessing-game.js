@@ -1,13 +1,13 @@
 class GuessingGame {
     constructor() {
-        this.isFirstTime = true;
+        
     }
 
     setRange(min, max) {
-        if (this.isFirstTime) {
+    
             this.min = min;
             this.max = max;
-        }
+        
     }
 
     guess() {
